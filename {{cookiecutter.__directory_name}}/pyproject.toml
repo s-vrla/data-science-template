@@ -104,9 +104,6 @@ ignore = [
     "E501",  # line too long, handled by formatter
 ]
 
-[tool.ruff.lint.mccabe]
-max-complexity = 10
-
 [tool.ruff.format]
 # Use double quotes for strings
 quote-style = "double"
